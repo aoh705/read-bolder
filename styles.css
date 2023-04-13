@@ -1,0 +1,29 @@
+#textInput {
+    resize: none;
+    margin: 1vh 1vw 0.5vh;
+    height: 24vh;
+}
+
+#textOutput {
+    border: 1px solid black;
+    margin: 0.5vh 1vw 1vh;
+    height: 72vh;
+    background-color: white;
+}
+
+#textInput, #textOutput {
+    width: 98vw;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: aliceblue;
+}
